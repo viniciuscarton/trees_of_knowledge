@@ -1,9 +1,9 @@
 # Trees of Knowledge
 ## Description
-🌲*Trees of Knowledge*🌲 is a simple and efficient note-taking app that helps you organize your text notes effortlessly. By providing the subject, date, content, and title of a note, the web app generates formatted text files for your convenience.
+🌲*Trees of Knowledge*🌲 is a simple and efficient note-taking app built using .NET that helps you organize your text notes effortlessly. By providing the subject, date, content, and title of a note, the web app generates formatted text files for your convenience.
 
  ## How to Use It
-[Run the app by clicking here 📁](bin/Release/net7.0/win-x64/publish/trees_of_knowledge.exe)
+Run the app [located here 📁](bin/Release/net7.0/win-x64/publish/trees_of_knowledge.exe)
 
 ![Index](wwwroot/img/readme/1.PNG)<br>
 Click on 'Plant a Tree' to begin.
