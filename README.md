@@ -5,13 +5,13 @@
  ## How to Use It
 [Run the app by clicking here 📁](bin/Release/net7.0/win-x64/publish/trees_of_knowledge.exe)
 
-![Index](wwwroot/img/readme/1.PNG) 
+![Index](wwwroot/img/readme/1.PNG)<br>
 Click on 'Plant a Tree' to begin.
 
-![New Note](wwwroot/img/readme/2.PNG) 
+![New Note](wwwroot/img/readme/2.PNG)<br>
 Input the required information. There are no character limits.
 
-![Note](wwwroot/img/readme/3.PNG) 
+![Note](wwwroot/img/readme/3.PNG)<br>
 The note will be automatically generated. The filename follows the pattern **SUBJECT_title_dd-mm-yy**. The note text breaks the line every 10 words for a better user experience. At the bottom of the note, there is a download counter. 
 
 ## Future Updates
