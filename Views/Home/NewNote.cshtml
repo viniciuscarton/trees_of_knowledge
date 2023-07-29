@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+@{
+    ViewBag.Title = "NewNote";
+}
+
+<head>
+    <link rel="stylesheet" href="/css/newnote.css" />
+    <script src="/site.js"></script>
+</head>
+
+<body>
+    <div class="container-form">
+        <form id="form1" action="SaveForest" method="post">
+            <h1 class="title">
+                <input style="width: 560px;" type="text" placeholder="📝 Title" id="title" name="title" required>
+            </h1>
+            <textarea placeholder="Enter your note here" id="note" name="note" rows="10" required></textarea>
+            <input type="text" placeholder="Subject" id="subject" name="subject" required>
+            <input type="date" id="date" name="date" required>
+        </form>
+        <button onclick="generateNote()">Submit</button>
+    </div>
+    <img src="/img/newtree.png" alt="">
+
+</body>
+
+</html>

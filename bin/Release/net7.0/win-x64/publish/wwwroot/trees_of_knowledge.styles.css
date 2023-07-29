@@ -1,0 +1,75 @@
+/* _content/trees_of_knowledge/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-vbkmm2pib7] {
+  white-space: normal;
+ justify-content: space-between;
+  word-break: break-all;
+  margin-right: 20px;
+}
+
+
+@font-face {
+  font-family: 'Latin'; /* The name you want to use for the font */
+  src: url('/fonts/lmmonoproplt10-regular.otf') format('truetype'); /* Adjust the file path and format based on your font files */
+  /* You can also include additional font formats (e.g., woff, woff2) for better browser support */
+}
+
+.navbar[b-vbkmm2pib7] {
+  justify-content: space-between;
+
+}
+*[b-vbkmm2pib7] {
+  font-family: 'Latin';
+  text-transform: lowercase;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item[b-vbkmm2pib7] {
+  font-family: 'Latin';
+  text-transform: lowercase;
+  font-size: 17px;
+}
+
+
+/* a {
+  color: #0077cc;
+} */
+
+/* .btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+} */
+
+.nav-pills .nav-link.active[b-vbkmm2pib7], .nav-pills .show > .nav-link[b-vbkmm2pib7] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-vbkmm2pib7] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-vbkmm2pib7] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-vbkmm2pib7] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-vbkmm2pib7] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-vbkmm2pib7] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

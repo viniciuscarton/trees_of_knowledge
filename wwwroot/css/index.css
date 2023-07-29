@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Latin';
+  src: url('/fonts/lmmonoproplt10-regular.otf') format('truetype');
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.02);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #09f880;
+}
+
+.container-index {
+  position: relative;
+  margin-top: 40px;
+}
+
+.image-wrapper img {
+  width: 270px;
+  position: absolute;
+}
+
+.image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+.spin-image {
+  position: absolute;
+  z-index: 1;
+  animation: spin 5s linear infinite;
+
+}
+
+.thought img {
+  position: absolute;
+  width: 80px;
+  left: 100px;
+}
+
+button {
+  background-color: rgb(16, 16, 16);
+  width: 150px;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  font-family: 'Latin';
+  font-size: 20px;
+  color: white;
+  text-transform: lowercase;
+}
+
+.plant-button:hover {
+  transform: scale(1.1);
+  font-weight: lighter;
+}
